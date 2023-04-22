@@ -1,0 +1,195 @@
+/* ESTILOS GENERALES: */
+
+/*Para calcular el tamaño de los elementos*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Para que el scrolleo en la one page sea suave */
+    scroll-behavior: smooth;
+}
+
+/* -------------------------------------------------------------------------------------------- */
+
+/* Tipo de letra desde Googlefonts (de la consigna) */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+/* -------------------------------------------------------------------------------------------- */
+
+/* Asignar color de fondo al body-fondo general */
+body {
+    background-color: #fbfbfb;
+}
+
+
+/* Asignar color de fondo y texto al boton */
+#a_descarga_cv {
+    background-color: #af599e; color: #fbfbfb;
+}
+
+
+/* Asignar color de fondo y texto al footer */
+footer {
+    background-color: #af599e; color: #fbfbfb;
+}
+
+
+/* Asignar color de fondo y texto al parrafo de la seccion contacto "hablemos" */
+#article_2 {
+    background-color: rgba(175, 89, 158, 0.3); color: #0f0f0f;
+}
+
+
+/* -------------------------------------------------------------------------------------------- */
+
+
+/*TAMAÑOS DE TEXTO*/
+
+/* INTERLINEADO 1.5 - Deben aplicar flexbox para alinear y distribuir los elementos */
+
+
+/*TAMAÑOS DE LAS SECCIONES
+No vamos a exigir un resultado exactamente igual a la imagen dada de
+referencia, pero dejamos algunas indicaciones:
+● Alto del header y del footer: 90px (el header debería quedar fijo a
+la parte superior de la ventana al scrollear)
+● Las secciones deben ocupar la totalidad del alto de la pantalla.
+Para eso pueden aplicarles un min-height: 100vh;
+● Espaciado Párrafos: 20px arriba y debajo de cada párrafo
+● Foto de presentación: ancho 400px*/
+
+
+
+#article_2 {
+    Box-sizing: border-box;
+    margin: 100px 0 30px 0;
+}
+
+/* ESTILOS ESPECIFICOS: */
+
+/* Header: */
+
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 90px;
+}
+
+#logo_adriana {
+        width: 100px;
+}
+
+#logo_adriana {
+    Box-sizing: border-box;
+    padding: -20px;
+    margin: -50px;
+}
+
+Nav {
+    box-sizing: border-box;
+    padding: -50px;
+}
+
+ul {
+    list-style: none;
+    color: rgb(43, 42, 42);
+}
+
+ul {
+    display: inline-block;
+    justify-content: center; /* No supe como hacer para que el menu quedará uno al */
+} 
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Main - Estilo general */
+/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
+*  el margin: auto; para tenerlo centrado fácilmente ;)
+*/
+main {
+    max-width: 250px;
+    margin: auto;
+}
+
+
+/*Fotografia Adriana*/
+#div_foto_ac {
+    display: flex;
+    justify-content: center; /*Para que el contenido esté justificado en el centro del contenedor*/
+    align-items: center; /*Para que el contenido esté alineado en el centro del contenedor */
+}
+
+#foto_ac {
+    border-radius: 50%;
+    width: 50%;
+}
+
+#foto_ac {
+    Box-sizing: border-box;
+    margin: 20px;
+}
+
+
+/* Articulo Nro 1 - Hola Soy Adriana*/
+h1 {
+    Box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#article_1 {
+    text-align: center;
+}
+
+
+/* div - Hola Soy Adriana*/
+#a_descarga_cv {
+    Box-sizing: border-box;
+    margin: 20px;
+}
+
+#div_descarga_cv {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Articulo Nro 2 - Me destaco*/
+
+
+#article_2 {
+    text-align: center;
+}
+
+
+/* Articulo Nro 3 - Logos*/
+#logo_mail {
+    display: flex;
+    justify-content: center;
+}
+
+#logo_mail {
+    Box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+article div img {
+    width: 50px;
+}
+
+/* fooler*/
+footer {
+    Box-sizing: border-box;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+

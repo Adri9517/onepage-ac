@@ -1,0 +1,169 @@
+/* ESTILOS GENERALES: */
+
+/*Para calcular el tamaño de los elementos*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Para que el scrolleo en la one page sea suave */
+    scroll-behavior: smooth;
+}
+
+/* Tipo de letra desde Googlefonts */
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+*{
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+/* Asignar color al body */
+body {
+    background-color: #e5e7e7;
+}
+
+/* Asignar color al header */
+header {
+    background-color: #fdfdfd;
+}
+
+/* Asignar color a uno de los articulos */
+#article_MeDestaco {
+    background-color: #B5E2FA;
+}
+
+/* Asignar color al fooler */
+#footer_div {
+    background-color: #00BBF9;
+}
+
+
+
+/* ESTILOS ESPECIFICOS: */
+
+/* Header: */
+
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+#logoAC {
+        width: 200px;
+}
+
+#logoAC {
+    Box-sizing: border-box;
+    padding: -20px;
+    margin: -50px;
+}
+
+Nav {
+    box-sizing: border-box;
+    padding: -50px;
+}
+
+ul {
+    list-style: none;
+    color: rgb(43, 42, 42);
+}
+
+ul {
+    display: inline-block;
+    justify-content: center; /* No supe como hacer para que el menu quedará uno al */
+} 
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Main - Estilo general */
+/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
+*  el margin: auto; para tenerlo centrado fácilmente ;)
+*/
+main {
+    max-width: 250px;
+    margin: auto;
+}
+
+
+/*Fotografia Adriana*/
+.div_fotoAC {
+    display: flex;
+    justify-content: center; /*Para que el contenido esté justificado en el centro del contenedor*/
+    align-items: center; /*Para que el contenido esté alineado en el centro del contenedor */
+}
+
+.foto_AC {
+    border-radius: 50%;
+    width: 50%;
+}
+
+.foto_AC {
+    Box-sizing: border-box;
+    margin: 20px;
+}
+
+
+/* Articulo Nro 1 - Hola Soy Adriana*/
+h1 {
+    Box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#article_1 {
+    text-align: center;
+}
+
+
+/* div - Hola Soy Adriana*/
+.a_descarga_CV {
+    Box-sizing: border-box;
+    margin: 20px;
+    background-color: #00BBF9;
+}
+
+.div_descargaCV {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Articulo Nro 2 - Me destaco*/
+#article_2 {
+    Box-sizing: border-box;
+    margin: 100px 0 30px 0;
+    background-color: #b7e1f0;
+}
+
+#article_2 {
+    text-align: center;
+}
+
+
+/* Articulo Nro 3 - Logos*/
+#article_3_logos {
+    display: flex;
+    justify-content: center;
+}
+
+#article_3_logos {
+    Box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+article div img {
+    width: 50px;
+}
+
+/* fooler*/
+footer {
+    Box-sizing: border-box;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: #00BBF9;
+}
+
